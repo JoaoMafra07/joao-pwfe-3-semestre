@@ -6,7 +6,7 @@
 
 body {
     font-size: 62.5%;
-    background-image: url(./imgs/imagem-fundo.jpg);
+    background-color: rgb(114, 186, 210);
 }
 
 a {
@@ -25,19 +25,25 @@ nav {
     list-style: none;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em 25vw;
+    padding: 0 25vw;
     min-width: none;
 }
 
 .topic {
-    font-size: 2.6em;
+    display: flex;
+    font-size: 2rem;
     color: #fff;
     font-weight: bolder;
 }
 
+.topic a {
+    display: block;
+    padding: 10px 25px;
+}
+
 .topic:hover {
     cursor: pointer;
-    color: #22EEFF;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 main {
@@ -46,27 +52,33 @@ main {
 }
 
 .main {
-    margin: 80px 0 30px 0;
+    margin: 90px 0 30px 0;
     padding: 18px;
     border-radius: 24px;
     width: 60%;
     background-color: #e6e6e6;
+    box-shadow: 0 0 30px #000;
 }
 
-section.introduction h1 {
+h1 {
     display: flex;
     font-size: 3.6em;
     justify-content: center;
 }
 
-section.introduction p {
-    font-size: 2.4em;
+p {
+    font-size: 2em;
+    padding: 0 40px
 }
 
-section.pillars h2 {
+h2 {
     display: flex;
     font-size: 3em;
     justify-content: center;
+}
+
+h3 {
+    margin: 20px 0 0 40px;
 }
 
 section.pillars h3 {
@@ -75,13 +87,18 @@ section.pillars h3 {
 }
 
 div.container {
+    padding: 10px;
     display: flex;
+    border-bottom: 1px solid gray;
+}
+
+div.container:nth-last-child {
+    border-bottom: none;
 }
 
 div.container p {
-    font-size: 2em;
     width: 60%;
-    margin: 0 1.8em;
+    margin: 0 18px;
     justify-content: center;
     align-self: center;
 }
