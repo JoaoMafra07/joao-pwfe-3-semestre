@@ -4,7 +4,7 @@
 
 // let eh_par = (num) => {
 //     let resto = Math.abs(num % 2)
-    
+
 //     switch (true) {
 //         case resto === 0:
 //             return "É par";
@@ -112,3 +112,67 @@
 
 // console.log(`O saldo atual da conta ${conta} é R$${saldo_atual}.`)
 // saldo_atual < 0 ? console.log("Saldo negativo") : console.log("Saldo positivo")
+
+// Ex 11
+// for (let i = 1; i < 11; i++) {
+//     console.log(i)
+// }
+
+// Ex 12
+// for (let i = 10; i > 0 ; i--) {
+//     console.log(i)
+// }
+
+// Ex 13
+// for (let i = 101; i < 111; i++) {
+//     console.log(i)
+// }
+
+// Ex 14
+// num_alunos = Number(prompt("Digite a quantidade de alunos da turma"))
+
+// let sum_notas = 0
+// for (let i = 0; i < num_alunos; i++) {
+//     nota = Number(prompt(`Digite a nota do ${i+1}º discente`))
+//     sum_notas = sum_notas + nota
+// }
+
+// console.log(`A média da sala foi ${sum_notas/num_alunos}`)
+
+// Ex 15
+// let sum = 0
+// let i = 0 
+// while (i < 10) {
+//     num = Number(prompt(`Digite o ${i+1}º número`))
+//     sum = sum + num
+
+//     i++
+// }
+
+// console.log(`A soma total foi ${sum}`)
+
+// Ex 16
+// let sum = 0
+// let i = 0
+
+// while (i < 10) {
+//     num = Number(prompt(`Digite o ${i + 1}º número`))
+//     if (num < 40) {
+//         sum = sum + num
+//     }
+
+//     i++
+// }
+
+// console.log(`A soma total foi ${sum}`)
+
+// Ex 17
+// num1 = Number(prompt("Digite o primeiro número"))
+// num2 = Number(prompt("Digite o segundo número"))
+
+// sum = 0
+// for (let i = num1; i < num2+1; i++) {
+//     sum = sum + i
+// }
+
+// console.log(sum)
