@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid 5px #000;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 36px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
