@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #00B3E8;
+    --secondary-color: #FFDF7E;
+    --white-color: #f4f4f4;
+    --black-color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main {
+    max-width: 120rem;
+    width: 80vw;
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 0 3rem var(--black-color);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 4.8rem;
+    justify-self: center;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    justify-self: center;
+}
+
+section{
+    align-items: center;
+}
+
+#texto-livro p {
+    font-size: 1.8rem;
+    padding: 0 3rem;
+}
+
+#seletor {
+    display: flex;
+    width: 36rem;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: var(--white-color);
+    border-radius: 2rem;
+    margin: 3rem 0;
+    box-shadow: 0 0 1.5rem var(--black-color);
+}
+
+#seletor label {
+    font-size: 2rem;
+}
